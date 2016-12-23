@@ -30,6 +30,7 @@ public abstract class Item<T extends ViewDataBinding> implements Group, SpanSize
     private View.OnClickListener onClickListener = new View.OnClickListener() {
         @Override
         public void onClick(View v) {
+            onClicked();
             onItemClickListener.onItemClick(Item.this, v);
         }
     };
@@ -137,5 +138,9 @@ public abstract class Item<T extends ViewDataBinding> implements Group, SpanSize
      */
     public long getId() {
         return id;
+    }
+
+    protected void onClicked() {
+
     }
 }
