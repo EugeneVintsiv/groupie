@@ -46,5 +46,5 @@ publish {
     artifactId = 'groupie'
     publishVersion = '0.5.0'
     desc = 'Library for groups and multiple view types in a RecyclerView'
-    website = 'https://github.com/genius/groupie'
+    website = 'https://github.com/EugeneVintsiv/groupie'
 }
